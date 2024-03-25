@@ -1,0 +1,67 @@
+/*=====================Part 1=====================*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    background-color: #0a0a0a;
+}
+
+nav {
+    color: aliceblue;
+}
+
+.logo {
+    margin: 30px;
+}
+
+ul>li {
+    margin-left: 30px;
+}
+
+#head {
+    color: cadetblue;
+    margin: 30PX;
+}
+
+#paragraph {
+    color: azure;
+    margin: 30PX;
+}
+
+#paragraph::first-letter {
+    color: cadetblue;
+    font-size: 100px;
+}
+
+.main-img {
+    margin: 30px;
+    width: 500px;
+}
+
+footer>label,
+form>label {
+    color: aliceblue;
+    margin: 20px;
+}
+
+input[type="text"],
+input {
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+}
+
+
+/*=================Part 2===================*/
+.def-input {
+    width: 400px;
+    height: 50px;
+    color: bisque;
+    font-size: xx-large;
+    border-radius: 20px;
+}
+
+.def-input:hover {
+    background-color: cadetblue;
+}
